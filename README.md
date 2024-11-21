@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7770fc2b-356a-4eab-8d01-4458c576ea3b)# 🛫 Análise de Voo no Brasil - Junho
+# 🛫 Análise de Voo no Brasil - Junho
 
 Este projeto foi desenvolvido com o objetivo de analisar a pontualidade dos voos realizados em solo brasileiro, comparando os meses de junho de 2023 e junho de 2024. A análise foi construída utilizando o Power BI, com dados públicos da ANAC, fornecendo insights robustos sobre atrasos, adiantamentos e pontualidade, além de variações ano a ano (YoY).
 
