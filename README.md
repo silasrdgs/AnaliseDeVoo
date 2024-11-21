@@ -329,6 +329,9 @@ IF(
 | **Excel**        | Pré-processamento de dados brutos.                |
 | **ChatGPT**      | Auxílio no desenvolvimento de fórmulas DAX.       |
 
+
+![](https://i.imgur.com/cQ6DTmp.png)
+
 ---
 
 ## 🖼️ Formatação Condicional 
