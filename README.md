@@ -60,6 +60,7 @@ O processo de ETL foi realizado no Power Query. Etapas principais:
   - Nome, Sigla ICAO, País de Origem, Total de Voos e Rotas, Logomarca.
 - **Métodos**:
   - Dados extraídos da [Wikipedia - Lista de Códigos de Empresas Aéreas](https://en.wikipedia.org/wiki/List_of_airline_codes).
+  - **País de Origem**: Através da sigla foi possivel identificar o país de origem ao conectar o Wikipedia com o PowerBI.
   - **Automação**: Script em Python para download e tratamento de logomarcas.
   - **Tratamento**: As logomarcas foram ajustadas no Photoshop e hospedadas no Imgur para integração no Power BI.
 
@@ -303,6 +304,8 @@ IF(
 
 Utilizada para mudar algumas tonalidades de forma dinamica, como por exemplo a tonalidade das variações (YoY) que a depender da condição apresenta cor diferente.
 
+### **1. Variação**
+- Destaca a cor com base na variação do valor.
 ```DAX
 YoY Realizados =
 VAR Voos2023 = VALUE([2023])
@@ -332,9 +335,7 @@ Tanto o **Tooltip** quanto o **Popup de ajuda** foram desenvolvidos com a inteç
 
 ## 🚀 Conclusão e Próximos Passos
 
-Este relatório analisa de forma abrangente o desempenho do setor aéreo no Brasil, fornecendo insights relevantes para empresas e gestores. **Próximos passos**:
-- Adicionar dados de outros meses para análise sazonal.
-- Integrar novas métricas, como a taxa de ocupação por voo.
+Este relatório analisa de forma abrangente o desempenho do setor aéreo no Brasil, fornecendo insights relevantes para empresas e gestores.
 
 Meu Linkedin: [Silasrdgs](https://www.linkedin.com/in/silasrdgs)
 
