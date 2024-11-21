@@ -1,4 +1,4 @@
-# 🛫 Análise de Voo no Brasil - Junho
+![image](https://github.com/user-attachments/assets/7770fc2b-356a-4eab-8d01-4458c576ea3b)# 🛫 Análise de Voo no Brasil - Junho
 
 Este projeto foi desenvolvido com o objetivo de analisar a pontualidade dos voos realizados em solo brasileiro, comparando os meses de junho de 2023 e junho de 2024. A análise foi construída utilizando o Power BI, com dados públicos da ANAC, fornecendo insights robustos sobre atrasos, adiantamentos e pontualidade, além de variações ano a ano (YoY).
 
@@ -65,6 +65,7 @@ O processo de ETL foi realizado no Power Query. Etapas principais:
   - **País de Origem**: Através da sigla foi possivel identificar o país de origem ao conectar o Wikipedia com o PowerBI.
   - **Automação**: Script em Python para download e tratamento de logomarcas.
   - **Tratamento**: As logomarcas foram ajustadas no Photoshop e hospedadas no Imgur para integração no Power BI.
+![Tabela Empresas](https://i.imgur.com/D6I9GCM.png)
 
 **Imagens Localizadas**
 ![Imagens Localizadas](https://i.imgur.com/cLoLx9n.gif)
@@ -86,6 +87,7 @@ O processo de ETL foi realizado no Power Query. Etapas principais:
   - Nome, Cidade, Estado, País, Coordenadas, Bandeiras dos Países.
 - **Métodos**:
   - Uso de fontes abertas (ChatGPT, Google Maps) para preenchimento de coordenadas e tabela de bandeiras para compor a imagem do país.
+![Tabela Aeroporto](https://i.imgur.com/nb6cGpN.gif)
 
 ---
 
@@ -95,6 +97,7 @@ Foi utilizado o **Star Schema** para organizar as tabelas:
 - **Fato**: Registros dos voos.
 - **Dimensões**: Empresas aéreas, aeroportos de origem/destino, e datas.
 - A duplicação da tabela de aeroportos permitiu dois relacionamentos ativos (origem e destino).
+![Star Schema](https://i.imgur.com/WPz9XCT.gif)
 
 ---
 
@@ -268,7 +271,7 @@ IF(
 ### **1. Map Flow**
 - **Descrição**: Mostra rotas de voo com base em coordenadas.
 - **Configuração**: Coordenadas ajustadas no Power Query.
-[Dashboard Mapa](https://i.imgur.com/TlfxrXs.gif)
+![Dashboard Mapa](https://i.imgur.com/TlfxrXs.gif)
 
 ### **2. Cartões KPI**
 - **Métricas**: Total de voos, variações YoY.
@@ -285,6 +288,7 @@ IF(
 
 ### **6. Simple Image - Bandeira e logo tipo da empresa**
 - Plugin que permite criar imagens dinamicas a partir de link anexado na tebela.
+![Simple Image](https://i.imgur.com/KN5eYxo.png)
 
 ### **7. Gráfico de linha e coluna - Comparação de voos realizado**
 - Destaca os dias com voos superiores se comparado com 2023, para tal foi usado a formula DAX:
@@ -357,10 +361,14 @@ IF(
 
 Tanto o **Tooltip** quanto o **Popup de ajuda** foram desenvolvidos com a inteção de facilitar o entendimento de cada grafico, para tal utilizei da ferramenta bookmarker.
 
-## **Tooltip - **
+**Tooltip**
+![Mapa](https://i.imgur.com/UMhTcx3.gif)
 
+![OTP](https://i.imgur.com/MSaEOhf.gif)
 
-## **Popup de ajuda - Empresas Aéreas**
+![tabela](https://i.imgur.com/sDwIUTC.gif)
+
+**Popup de ajuda - Empresas Aéreas**
 ![Popup de Ajuda](https://i.imgur.com/4txmFzT.gif)
 
 ---
