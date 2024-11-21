@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/6c87d547-2a2a-43f5-a793-510dd7905036)![image](https://github.com/user-attachments/assets/f02f4737-2b8f-43f1-abed-9458daa330f7)
 # 🛫 Análise de Voo no Brasil - Junho
 
 Este projeto foi desenvolvido com o objetivo de analisar a pontualidade dos voos realizados em solo brasileiro, comparando os meses de junho de 2023 e junho de 2024. A análise foi construída utilizando o Power BI, com dados públicos da ANAC, fornecendo insights robustos sobre atrasos, adiantamentos e pontualidade, além de variações ano a ano (YoY).
@@ -41,6 +41,9 @@ A base de dados foi extraída do site da ANAC, focando nos meses de junho de 202
 - [Base de dados ANAC - VRA](https://sas.anac.gov.br/sas/bav/view/frmConsultaVRALogado)
 - **Volume de Dados**: Mais de 157.000 registros, abrangendo 297 aeroportos nacionais e internacionais, além de 83 empresas aéreas.
 
+## **Site ANAC**
+![Site da ANAC](https://i.imgur.com/wzIkWwT.gif)
+
 ---
 
 ## 🛠 ETL: Extração, Transformação e Carga
@@ -64,6 +67,20 @@ O processo de ETL foi realizado no Power Query. Etapas principais:
   - **Automação**: Script em Python para download e tratamento de logomarcas.
   - **Tratamento**: As logomarcas foram ajustadas no Photoshop e hospedadas no Imgur para integração no Power BI.
 
+**Imagens Localizadas**
+![Imagens Localizadas](https://i.imgur.com/cLoLx9n.gif)
+
+**Imagens Baixadas**
+![Imagens Baixadas](https://i.imgur.com/pyECsQ8.gif)
+
+ **Imagens Editadas**
+ ![Imagens Editadas](https://i.imgur.com/ox2ZfGs.gif)
+
+**Imagens Upadas**
+![Imagens Upadas](https://i.imgur.com/T5O1l41.png)
+ 
+
+
 ### **2. dAeroportos**
 - **Objetivo**: Detalhar informações geográficas e operacionais dos aeroportos.
 - **Campos**:
@@ -85,6 +102,10 @@ Foi utilizado o **Star Schema** para organizar as tabelas:
 ## 🧮 Coluna Calculada
 As colunas calculadas foram criadas para facilitar o desenvolvimento de gráficos e análises mais detalhadas no relatório. Um exemplo é a coluna de Desempenho de Pontualidade, que classifica os voos como **Pontual**, **Adiantado**, **Atrasado** ou **Inconsistente**.
 Com essas regras, foi possível categorizar os voos de forma precisa e garantir que os gráficos representassem insights claros e confiáveis.
+
+## **Colunas da tabela fato (BaseDados)**
+![Coluna Calculada](https://i.imgur.com/HgmxpuP.gif)
+
 
 ---
 
@@ -238,6 +259,9 @@ IF(
 )
 ```
 
+## **Cartões com variação**
+![Variação](https://i.imgur.com/8skuWrU.gif)
+
 ---
 
 ## 📊 Visualizações do Relatório
@@ -245,6 +269,7 @@ IF(
 ### **1. Map Flow**
 - **Descrição**: Mostra rotas de voo com base em coordenadas.
 - **Configuração**: Coordenadas ajustadas no Power Query.
+[Dashboard Mapa](https://i.imgur.com/TlfxrXs.gif)
 
 ### **2. Cartões KPI**
 - **Métricas**: Total de voos, variações YoY.
@@ -284,6 +309,8 @@ IF(
     )
 )
 ```
+## **Grafico de Coluna com linhas**
+![Grafico com linhas](https://i.imgur.com/TRXXnQe.gif)
 
 ---
 
@@ -324,6 +351,8 @@ IF(
     )
 )
 ```
+## **Formatação condicional com cor**
+![Cores da variação](https://i.imgur.com/VvdbB8D.gif)
 
 ---
 
@@ -331,10 +360,18 @@ IF(
 
 Tanto o **Tooltip** quanto o **Popup de ajuda** foram desenvolvidos com a inteção de facilitar o entendimento de cada grafico, para tal utilizei da ferramenta bookmarker.
 
+## **Tooltip - **
 
-##**Popup de ajuda**
+
+## **Popup de ajuda - Empresas Aéreas**
 ![Popup de Ajuda](https://i.imgur.com/4txmFzT.gif)
 
+---
+
+## 💻 Montagem visual do dashboard 
+
+O **Figma** foi usado para prototipar o layout do dashboard, testando diferentes disposições, cores e gráficos. Ele garantiu um design intuitivo e colaborativo, permitindo ajustes rápidos antes da implementação no Power BI.
+![Figma](https://i.imgur.com/1B3L4uM.gif)
 
 ---
 
