@@ -309,7 +309,7 @@ IF(
     )
 )
 ```
-## **Grafico de Coluna com linhas**
+**Grafico de Coluna com linhas**
 ![Grafico com linhas](https://i.imgur.com/TRXXnQe.gif)
 
 ---
@@ -351,7 +351,7 @@ IF(
     )
 )
 ```
-## **Formatação condicional com cor**
+**Formatação condicional com cor**
 ![Cores da variação](https://i.imgur.com/VvdbB8D.gif)
 
 ---
