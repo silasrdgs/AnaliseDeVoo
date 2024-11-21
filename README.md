@@ -15,11 +15,11 @@ Este projeto foi desenvolvido com o objetivo de analisar a pontualidade dos voos
 4. [Tabelas de Dimensão](#-tabelas-de-dimensão)
 5. [Modelagem e Relacionamentos](#-modelagem-e-relacionamentos)
 6. [Coluna Calculada](#-coluna-calculada)
-7. [Cálculos e Medidas DAX](#-cálculos-e-medidas-dax)
+7. [Cálculos e Medidas DAX](#%EF%B8%8F-c%C3%A1lculos-e-medidas-dax))
 8. [Visualizações do Relatório](#-visualizações-do-relatório)
 9. [Design e Ferramentas Utilizadas](#-design-e-ferramentas-utilizadas)
-10. [Formatação condicional](#-formatação-condicional)
-11. [Tooltip e Popup de Ajuda](#-tooltip-e-popup-de-ajuda) 
+10. [Formatação condicional]([#%EF%B8%8F-formata%C3%A7%C3%A3o-condicional))
+11. [Tooltip e Popup de Ajuda]([#%EF%B8%8F-tooltip-e-popup-de-ajuda)) 
 12. [Conclusão e Próximos Passos](#-conclusão-e-próximos-passos)
 
 ---
