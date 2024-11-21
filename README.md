@@ -320,7 +320,7 @@ IF(
 
 ## 🎨 Design e Ferramentas Utilizadas
 
-<img src="https://i.imgur.com/cQ6DTmp.png" alt="Dashboard Principal" width="500" />
+<img src="https://i.imgur.com/cQ6DTmp.png" alt="Dashboard Principal" width="700" />
 
 
 ---
