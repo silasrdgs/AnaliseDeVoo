@@ -320,15 +320,7 @@ IF(
 
 ## 🎨 Design e Ferramentas Utilizadas
 
-| Ferramenta      | Uso                                                |
-|------------------|----------------------------------------------------|
-| **Power BI**     | Construção e publicação do relatório.             |
-| **Python**       | Automação de coleta e tratamento de logomarcas.   |
-| **Photoshop**    | Edição de imagens (logomarcas e bandeiras).       |
-| **Figma**        | Prototipagem do layout do dashboard.              |
-| **Excel**        | Pré-processamento de dados brutos.                |
-| **ChatGPT**      | Auxílio no desenvolvimento de fórmulas DAX.       |
-
+<img src="https://i.imgur.com/cQ6DTmp.png" alt="Dashboard Principal" width="200" />
 
 ![](https://i.imgur.com/cQ6DTmp.png)
 
