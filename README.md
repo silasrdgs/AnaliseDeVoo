@@ -87,6 +87,7 @@ O processo de ETL foi realizado no Power Query. Etapas principais:
   - Nome, Cidade, Estado, País, Coordenadas, Bandeiras dos Países.
 - **Métodos**:
   - Uso de fontes abertas (ChatGPT, Google Maps) para preenchimento de coordenadas e tabela de bandeiras para compor a imagem do país.
+
 ![Tabela Aeroporto](https://i.imgur.com/nb6cGpN.gif)
 
 ---
@@ -97,6 +98,7 @@ Foi utilizado o **Star Schema** para organizar as tabelas:
 - **Fato**: Registros dos voos.
 - **Dimensões**: Empresas aéreas, aeroportos de origem/destino, e datas.
 - A duplicação da tabela de aeroportos permitiu dois relacionamentos ativos (origem e destino).
+
 ![Star Schema](https://i.imgur.com/WPz9XCT.gif)
 
 ---
