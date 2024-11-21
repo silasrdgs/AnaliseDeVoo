@@ -331,6 +331,11 @@ IF(
 
 Tanto o **Tooltip** quanto o **Popup de ajuda** foram desenvolvidos com a inteção de facilitar o entendimento de cada grafico, para tal utilizei da ferramenta bookmarker.
 
+
+##**Popup de ajuda**
+![Popup de Ajuda](https://i.imgur.com/4txmFzT.gif)
+
+
 ---
 
 ## 🚀 Conclusão e Próximos Passos
