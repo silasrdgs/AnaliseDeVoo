@@ -38,10 +38,10 @@ O projeto aborda os seguintes tópicos:
 A base de dados foi extraída do site da ANAC, focando nos meses de junho de 2023 e 2024 para permitir uma análise de variação ano a ano (YoY). O formato inicial dos dados era CSV, o que facilitou a importação para o Power BI.
 
 - [Base de dados ANAC - VRA](https://sas.anac.gov.br/sas/bav/view/frmConsultaVRALogado)
-- **Volume de Dados**: Mais de 157.000 registros, abrangendo 297 aeroportos nacionais e internacionais, além de 83 empresas aéreas.
+- **Volume de Dados**: Mais de 154.000 registros, abrangendo 297 aeroportos nacionais e internacionais, além de 83 empresas aéreas.
 
 ## **Site ANAC**
-![Site da ANAC](https://i.imgur.com/wzIkWwT.gif)
+<img src="https://i.imgur.com/wzIkWwT.gif" alt="Site da ANAC" width="700" />
 
 ---
 
@@ -65,19 +65,23 @@ O processo de ETL foi realizado no Power Query. Etapas principais:
   - **País de Origem**: Através da sigla foi possivel identificar o país de origem ao conectar o Wikipedia com o PowerBI.
   - **Automação**: Script em Python para download e tratamento de logomarcas.
   - **Tratamento**: As logomarcas foram ajustadas no Photoshop e hospedadas no Imgur para integração no Power BI.
-![Tabela Empresas](https://i.imgur.com/D6I9GCM.png)
+<img src="https://i.imgur.com/D6I9GCM.png" alt="Tabela Empresas" width="700" />
+<br>
 
-**Imagens Localizadas**
-![Imagens Localizadas](https://i.imgur.com/cLoLx9n.gif)
+**Imagens Localizadas**<br>
+<img src="https://i.imgur.com/cLoLx9n.gif" alt="Imagens Localizadas" width="600" />
 
-**Imagens Baixadas**
-![Imagens Baixadas](https://i.imgur.com/pyECsQ8.gif)
 
- **Imagens Editadas**
- ![Imagens Editadas](https://i.imgur.com/ox2ZfGs.gif)
+**Imagens Baixadas**<br>
+<img src="https://i.imgur.com/pyECsQ8.gif" alt="Imagens Baixadas" width="600" />
 
-**Imagens Upadas**
-![Imagens Upadas](https://i.imgur.com/T5O1l41.png)
+
+ **Imagens Editadas**<br>
+<img src="https://i.imgur.com/ox2ZfGs.gif" alt="Imagens Editadas" width="600" />
+
+
+**Imagens Upadas**<br>
+<img src="https://i.imgur.com/T5O1l41.png" alt="Imagens Upadas" width="600" />
  
 
 
@@ -88,7 +92,7 @@ O processo de ETL foi realizado no Power Query. Etapas principais:
 - **Métodos**:
   - Uso de fontes abertas (ChatGPT, Google Maps) para preenchimento de coordenadas e tabela de bandeiras para compor a imagem do país.
 
-![Tabela Aeroporto](https://i.imgur.com/nb6cGpN.gif)
+<img src="https://i.imgur.com/ozCSHfb.gif" alt="Tabela Aeroporto" width="575" />
 
 ---
 
@@ -99,7 +103,7 @@ Foi utilizado o **Star Schema** para organizar as tabelas:
 - **Dimensões**: Empresas aéreas, aeroportos de origem/destino, e datas.
 - A duplicação da tabela de aeroportos permitiu dois relacionamentos ativos (origem e destino).
 
-![Star Schema](https://i.imgur.com/WPz9XCT.gif)
+<img src="https://i.imgur.com/WPz9XCT.gif" alt="Star Schema" width="575" />
 
 ---
 
@@ -108,7 +112,7 @@ As colunas calculadas foram criadas para facilitar o desenvolvimento de gráfico
 Com essas regras, foi possível categorizar os voos de forma precisa e garantir que os gráficos representassem insights claros e confiáveis.
 
 ## **Colunas da tabela fato (BaseDados)**
-![Coluna Calculada](https://i.imgur.com/HgmxpuP.gif)
+<img src="https://i.imgur.com/rKzTwYn.gif" alt="Coluna Calculada" width="550" />
 
 
 ---
@@ -263,9 +267,6 @@ IF(
 )
 ```
 
-## **Cartões com variação**
-<img src="https://i.imgur.com/8skuWrU.gif" alt="Cartões com variação" width="500" />
-
 ---
 
 ## 📊 Visualizações do Relatório
@@ -273,11 +274,12 @@ IF(
 ### **1. Map Flow**
 - **Descrição**: Mostra rotas de voo com base em coordenadas.
 - **Configuração**: Coordenadas ajustadas no Power Query.
-<img src="https://i.imgur.com/TlfxrXs.gif" alt="Dashboard Mapa" width="700" />
+<img src="https://i.imgur.com/DxAO8J2.png" alt="Dashboard Mapa" width="400" />
 
 ### **2. Cartões KPI**
 - **Métricas**: Total de voos, variações YoY.
 - **Formatos**: Cores condicionais (verde/vermelho) para destacar crescimento ou queda.
+<img src="https://i.imgur.com/8skuWrU.gif" alt="Cartões com variação" width="400" />
 
 ### **3. Gráfico de Rosca - OTD**
 - Exibe as categorias: Pontual, Adiantado, Atrasado, Inconsistente.
@@ -290,7 +292,7 @@ IF(
 
 ### **6. Simple Image - Bandeira e logo tipo da empresa**
 - Plugin que permite criar imagens dinamicas a partir de link anexado na tebela.
-<img src="https://i.imgur.com/KN5eYxo.png" alt="Simple Image" width="700" />
+<img src="https://i.imgur.com/KN5eYxo.png" alt="Simple Image" width="400" />
 
 ### **7. Gráfico de linha e coluna - Comparação de voos realizado**
 - Destaca os dias com voos superiores se comparado com 2023, para tal foi usado a formula DAX:
@@ -314,15 +316,13 @@ IF(
     )
 )
 ```
-<img src="https://i.imgur.com/wBj47Lx.gif" alt="Gráfico com linhas" width="700" />
+<img src="https://i.imgur.com/wBj47Lx.gif" alt="Gráfico com linhas" width="500" />
 
 ---
 
 ## 🎨 Design e Ferramentas Utilizadas
 
-<div style="text-align: center;">
-    <img src="https://i.imgur.com/cQ6DTmp.png" alt="Dashboard Principal" width="700" />
-</div>
+<img src="https://i.imgur.com/cQ6DTmp.png" alt="Informações das ferramentas" width="800" />
 
 
 ---
@@ -351,7 +351,7 @@ IF(
     )
 )
 ```
-![Cores da variação](https://i.imgur.com/VvdbB8D.gif)
+<img src="https://i.imgur.com/VvdbB8D.gif" alt="Cores da variação" width="650" />
 
 ---
 
@@ -359,22 +359,22 @@ IF(
 
 Tanto o **Tooltip** quanto o **Popup de ajuda** foram desenvolvidos com a inteção de facilitar o entendimento de cada grafico, para tal utilizei da ferramenta bookmarker.
 
-**Tooltip**
-![Mapa](https://i.imgur.com/UMhTcx3.gif)
+**Tooltip**<br>
+<img src="https://i.imgur.com/UMhTcx3.gif" alt="Mapa" width="400" /> 
 
-![OTP](https://i.imgur.com/MSaEOhf.gif)
+<img src="https://i.imgur.com/MSaEOhf.gif" alt="OTP" width="500" /> 
 
-![tabela](https://i.imgur.com/sDwIUTC.gif)
+<img src="https://i.imgur.com/sDwIUTC.gif" alt="Tabela" width="500" />
 
-**Popup de ajuda - Empresas Aéreas**
-![Popup de Ajuda](https://i.imgur.com/4txmFzT.gif)
+**Popup de ajuda - Empresas Aéreas**<br>
+<img src="https://i.imgur.com/4txmFzT.gif" alt="Popup de Ajuda" width="700" />
 
 ---
 
 ## 💻 Montagem visual do dashboard 
 
 O **Figma** foi usado para prototipar o layout do dashboard, testando diferentes disposições, cores e gráficos. Ele garantiu um design intuitivo e colaborativo, permitindo ajustes rápidos antes da implementação no Power BI.
-![Figma](https://i.imgur.com/1B3L4uM.gif)
+<img src="https://i.imgur.com/1B3L4uM.gif" alt="Figma" width="700" />
 
 ---
 
