@@ -264,7 +264,7 @@ IF(
 ```
 
 ## **Cartões com variação**
-![Variação](https://i.imgur.com/8skuWrU.gif)
+<img src="https://i.imgur.com/8skuWrU.gif" alt="Cartões com variação" width="500" />
 
 ---
 
@@ -273,7 +273,7 @@ IF(
 ### **1. Map Flow**
 - **Descrição**: Mostra rotas de voo com base em coordenadas.
 - **Configuração**: Coordenadas ajustadas no Power Query.
-![Dashboard Mapa](https://i.imgur.com/TlfxrXs.gif)
+<img src="https://i.imgur.com/TlfxrXs.gif" alt="Dashboard Mapa" width="700" />
 
 ### **2. Cartões KPI**
 - **Métricas**: Total de voos, variações YoY.
@@ -290,7 +290,7 @@ IF(
 
 ### **6. Simple Image - Bandeira e logo tipo da empresa**
 - Plugin que permite criar imagens dinamicas a partir de link anexado na tebela.
-![Simple Image](https://i.imgur.com/KN5eYxo.png)
+<img src="https://i.imgur.com/KN5eYxo.png" alt="Simple Image" width="700" />
 
 ### **7. Gráfico de linha e coluna - Comparação de voos realizado**
 - Destaca os dias com voos superiores se comparado com 2023, para tal foi usado a formula DAX:
@@ -314,13 +314,15 @@ IF(
     )
 )
 ```
-![Grafico com linhas](https://i.imgur.com/wBj47Lx.gif)
+<img src="https://i.imgur.com/wBj47Lx.gif" alt="Gráfico com linhas" width="700" />
 
 ---
 
 ## 🎨 Design e Ferramentas Utilizadas
 
-<img src="https://i.imgur.com/cQ6DTmp.png" alt="Dashboard Principal" width="700" />
+<div style="text-align: center;">
+    <img src="https://i.imgur.com/cQ6DTmp.png" alt="Dashboard Principal" width="700" />
+</div>
 
 
 ---
