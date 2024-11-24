@@ -20,6 +20,7 @@ Este projeto foi desenvolvido com o objetivo de analisar a pontualidade dos voos
 10. [Formatação condicional](#%EF%B8%8F-formata%C3%A7%C3%A3o-condicional)
 11. [Tooltip e Popup de Ajuda](#%EF%B8%8F-tooltip-e-popup-de-ajuda) 
 12. [Conclusão e Próximos Passos](#-conclusão-e-próximos-passos)
+13. [Demonstração do Dashboard](#-demonstração-do-dashboard)
 
 ---
 
