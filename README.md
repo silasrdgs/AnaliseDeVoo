@@ -378,6 +378,12 @@ O **Figma** foi usado para prototipar o layout do dashboard, testando diferentes
 
 ---
 
+## Demonstração do Dashboard
+<video width="640" height="360" controls>
+  <source src="https://youtu.be/VQc0VgjM18I" type="video/mp4">
+  Seu navegador não suporta a reprodução de vídeo.
+</video>
+
 ## 🚀 Conclusão e Próximos Passos
 
 Este relatório analisa de forma abrangente o desempenho do setor aéreo no Brasil, fornecendo insights relevantes para empresas e gestores.
