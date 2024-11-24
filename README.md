@@ -380,7 +380,7 @@ O **Figma** foi usado para prototipar o layout do dashboard, testando diferentes
 
 ## Demonstração do Dashboard
 <video width="640" height="360" controls>
-  <source src="https://youtu.be/VQc0VgjM18I" type="video/mp4">
+  <source src="https://www.youtube.com/embed/VQc0VgjM18I?si=TM-SQNQ1kcMuHBF5" type="video/mp4">
   Seu navegador não suporta a reprodução de vídeo.
 </video>
 
