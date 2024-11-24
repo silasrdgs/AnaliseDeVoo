@@ -382,11 +382,6 @@ O **Figma** foi usado para prototipar o layout do dashboard, testando diferentes
 ## 🤌 Demonstração do Dashboard
 [![Video demonstrativo](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FVQc0VgjM18I)](https://youtu.be/VQc0VgjM18I)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VQc0VgjM18I?si=TM-SQNQ1kcMuHBF5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<video width="320" height="240" controls>
-  <source src="https://www.youtube.com/embed/VQc0VgjM18I?si=TM-SQNQ1kcMuHBF5" type="video/mp4">
-</video>
 
 ## 🚀 Conclusão e Próximos Passos
 
